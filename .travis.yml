@@ -1,0 +1,13 @@
+language: java
+
+jdk:
+  - openjdk11
+
+addons:
+  sonarcloud:
+    organization: "magicstick9-1"
+    token:
+      secure: ${SONAR_TOKEN}
+
+script:
+  - mvn clean verify sonar:sonar
