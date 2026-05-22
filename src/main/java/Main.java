@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+System.out.println("CI test run");
+
 public class Calculator {
 
     public static void main(String[] args) {
