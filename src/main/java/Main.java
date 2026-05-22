@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+System.out.println("First change");
+System.out.println("Second change");
+System.out.println("CI test update");
 System.out.println("CI test run");
 
 public class Calculator {
